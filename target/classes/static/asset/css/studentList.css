@@ -1,0 +1,73 @@
+.studentList .turn_back {
+    background-color: #d9534f;
+    padding:0 10px;
+    height: 40px;
+    float:left;
+    margin-right:10px
+}
+table {
+    white-space:nowrap
+}
+.studentList button {
+    float: right;
+    margin-right: 10px;
+}
+.studentList .student_info {
+    padding: 30px;
+}
+.studentList .student_info div{
+    float: left;
+    width: 30%;
+    margin-bottom:20px;
+}
+.studentList .student_info p {
+    width:20%;
+    margin:0 auto;
+    margin-top:20px;
+}
+.studentList .el-table {
+    text-align: center;
+}
+.studentList th {
+    text-align: center;
+}
+.studentList .choose_center {
+    padding:5px;
+    width: 200px;
+    background-color: #fff;
+    float: left;
+}
+.studentList .center_li {
+    background-color: #E7E6E3;
+    font-weight: 500;
+    border-top: 1px solid #ccc;
+    margin-bottom: 5px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.studentList .choose_title {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.studentList .center_detail {
+    width: 80%;
+    min-width:1000px;
+    min-height:800px;
+    background-color: #f9f9f9;
+    float: left;
+    padding: 10px;
+}
+.studentList button {
+    background-color: #7fbf40;
+    height: 40px;
+    color: #fff;
+    border: none;
+    padding: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}

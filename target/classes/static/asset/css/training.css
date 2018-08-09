@@ -1,0 +1,231 @@
+/* ==========================Training Index CSS ==================================*/
+.training{
+	background-color:#f7f8f6;
+	padding:0px 20px;
+}
+.training-tab{
+	width:795px;
+	margin:0px auto;
+}
+.training-tab span{
+	display:inline-block;
+	font-size:18px;
+	color:#494D4C;
+	text-align:center;
+	line-height:50px;
+	padding:0px 35px;
+	cursor:pointer;
+}
+.training-tab span.active{
+	color:#fea230;
+	border-bottom:3px solid #fea230;
+}
+.training-board {
+	padding-top:15px;
+}
+.training-board .el-input.is-focus .el-input__inner{
+	border-color:#dedfe6;
+}
+
+.training-board .el-input--suffix .el-input__inner{
+	color:#a19e98;
+	font-size:16px;
+}
+
+.training-board .el-table{
+	margin-top:20px;
+}
+
+.training-board .el-table .cell{
+	word-break: break-word;
+}
+
+.training-board .el-table th{
+	background-color:#E5E4E1 !important;
+	word-wrap:break-word;
+}
+
+/* ===============================Training Need CSS ============================ */
+.training-need .training-need-title{
+	background-color:#666560;
+	color:#FBFBFB;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	font-size:28px;
+	margin-top:20px;
+}
+
+.training-need .category{
+	background-color:#FFC668;
+    color:#120C07;
+	font-size:16px;
+	height:38px;
+	line-height:38px;
+	border:1px solid #C9C3BD;
+	padding-left:25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.training-need .table{
+	display:table;
+	min-height:75px;
+	width:100%;
+}
+.training-need .td{
+    color:#61605A;
+	padding:0px 25px;
+	display:table-cell;
+	vertical-align:middle;
+	border:1px solid #C9C3BD;
+	height:100%;
+}
+.training-need .members{
+	width:70%;
+	padding-right:150px;
+	position:relative;
+}
+.training-need .teacher{
+	display:inline-block;
+	text-align:center;
+	margin-right:25px;
+	cursor: pointer;
+}
+.training-need .portrait{
+	display:inline-block;
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	background-color:#E7E6E3;
+	overflow: hidden;
+}
+
+.training-need .portrait .name{
+	font-size:12px;
+	width:100%;
+}
+.training-need .new-button{
+	position: absolute;
+	right:10px;
+	margin-top:-20px;
+	top:50%;
+}
+.training-need .course_complete{
+	border: 2px solid #78C64E;
+}
+.training-need .el-badge__content.is-fixed.is-dot{
+	top:8px;
+	right:8px;
+}
+/* =========================== Course Dialog =================== */
+.course-dialog .el-input{
+	width:348px;
+}
+.course-dialog .select-area{
+	border:1px solid #dcdfe6;
+	border-radius: 4px;
+	width:85%;
+	min-height:70px;
+	position:relative;
+	padding-right:30px;
+}
+.course-dialog .select-area-plus{
+	position:absolute;
+	right:5px;
+	top:50%;
+	margin-top:-12px;
+	font-size:25px;
+	cursor:pointer;
+}
+.course-dialog .select-label{
+	display:inline-block;
+	height:22px;
+	font-size:16px;
+	line-height:22px;
+	border:1px solid #dcdfe6;
+	padding:0px 5px;
+	color:#5E5D58;
+	margin:10px 10px;
+}
+.course-dialog .select-label-delete{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.course-dialog .el-form-item.is-required .el-form-item__label:before{
+	content:"";
+}
+.course-dialog .select-area.el-input__inner{
+	height: auto;
+}
+.training-skill-select{
+    width:348px;
+}
+/* ====================== Attendance Dialog ==============*/
+.attendance-dialog{
+    width:950px;
+}
+.attendance-dialog .el-dialog__header{
+	padding:20px 40px 10px 20px;
+}
+.attendance-dialog .detail span{
+    margin-right:20px;
+}
+
+.attendance-dialog .first-column{
+    border: 1px solid #F0F3F6;
+}
+.attendance-dialog .last-column{
+    border-right: 1px solid #F0F3F6;
+}
+.attendance-dialog .attachment{
+	color:#7084C6;
+	cursor: pointer;
+	display: inline-block;
+}
+.training-course-select-user .check-box{
+	display:inline-block;
+	margin:5px;
+	width:120px;
+}
+.training-course-select-user .el-checkbox__label{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100px;
+}
+/* =========================== Teacher Training History =================== */
+.teacher-training-history{
+    padding:10px 30px;
+}
+.teacher-training-history th{
+    background-color:#E5E4E1 !important;
+}
+.teacher-training-history .teacher-info{
+    margin:20px auto;
+    border:1px solid #C7C4BE;
+    height:120px;
+}
+.teacher-training-history .teacher-info .partrait{
+    height:96px;
+    width:96px;
+    margin:10px 10px;
+    border:1px solid #C7C4BE;
+    background-color: #E5E4E1;
+}
+.teacher-training-history .teacher-info .info{
+    margin-left:20px;
+}
+.teacher-training-history .teacher-info .info div{
+    color:#9B9A97;
+    margin-top:5px;
+}
+.teacher-training-history .attachment{
+	color:#7084C6;
+	cursor: pointer;
+	display: inline-block;
+}
+.teacher-training-history .teacher-info .info div:first-child{
+    font-size: 20px;
+}

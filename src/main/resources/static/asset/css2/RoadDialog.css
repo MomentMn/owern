@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*RoadMap Training Dialog */
+.roadmap-train-dialog{
+    width: 780px;
+    height: 500px;
+}
+.roadmap-train-dialog .el-dialog__header{
+    display: none;
+}
+.roadmap-train-dialog .el-dialog--center .el-dialog__body{
+    padding-top: 0px;
+    height: 100%
+}
+.roadmap-train-dialog .el-dialog--center .dialog__body{
+    padding-top:0px;
+}
+.roadmap-train-dialog .form-wrapper{
+
+}
+.roadmap-train-dialog .form-wrapper .form-info{
+margin-top: 20px;
+}
+.roadmap-train-dialog .form-wrapper .fixed-value{
+    margin-left: 16px;
+}
+.roadmap-train-dialog .form-wrapper .fixed-value .big_title{
+    font-size: 28px;
+    width: 730px;
+    color: #101010;
+}
+.roadmap-train-dialog .form-wrapper .fixed-value .sub_title{
+    font-size: 16px;
+    width: 730px;
+    color: #101010;
+}
+.roadmap-train-dialog .form-wrapper .form-info .course-desc{
+  font-size: 12px;
+}
+
+.roadmap-train-dialog .form-wrapper .form-info .course-desc-icon{
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius:50%;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.roadmap-train-dialog .dialog-footer{
+    text-align: center;
+}
+.roadmap-train-dialog .dialog-footer button{
+    margin-right: 30px;
+}
+.roadmap-train-dialog .dialog-footer button:first-child{
+    background-color:#F2F2F2
+}
+
+
+/*ElementUI*/
+.roadmap-train-dialog .el-date-table .el-time-panel table,
+.roadmap-train-dialog .el-date-table .el-time-panel tr,
+.roadmap-train-dialog .el-date-table .el-time-panel th,
+.roadmap-train-dialog .el-date-table .el-time-panel td{
+    border: solid 0px #BBBBBB;
+    color: #606266;
+}

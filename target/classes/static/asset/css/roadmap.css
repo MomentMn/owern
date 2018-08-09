@@ -1,0 +1,109 @@
+@charset "utf-8";
+.roadmap{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, BlinkMacSystemFont, "Helvetica Neue", Arial, "Microsoft Yahei", "WenQuanYi Micro Hei", "Pingfang SC", sans-serif;
+}
+
+.roadmap .roadmap-wraper{
+    padding-top: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.roadmap .title{
+    height: 65px;
+}
+
+.roadmap .title .big_title{
+    color: #000000;
+    font-size: 30.0px;
+}
+.roadmap .title .level{
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.roadmap .title .name{
+    font-size: 16px;
+}
+.roadmap .content{
+    border: solid 2px #F7F7F7;
+    height: 100%;
+    width: 98%;
+    background-color: #ffffff;
+}
+
+.roadmap .content .year-content{
+    color:#e51c23;
+}
+.roadmap .content .year-content .year{
+    font-size: 20px;
+}
+
+.roadmap .content .year-content .level{
+    font-size: 16px;
+    margin-left: 15px;
+}
+.roadmap .content .cont_wraper{
+    margin: 15px 40px 40px 15px;
+}
+
+.roadmap .content .content__content {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-left: solid 4px #BBBBBB;
+}
+
+.roadmap .content .content__content .content__cont_wraper{
+    margin-left: 40px;
+    padding-top: 20px;
+    border-bottom: solid 12px #E3E3E3;
+}
+
+.roadmap .content .content__content .content__cont_wraper .period{
+    font-size: 18.0px;
+    padding: 5px 0px;
+}
+
+.roadmap .content .content__content .content__cont_wraper .target{
+    font-size: 16.0px;
+    padding: 5px 0px;
+}
+
+.roadmap .content .content__content .content__cont_wraper .Average{
+    font-size: 16.0px;
+    padding: 5px 0px 25px 0px;
+}
+
+.roadmap .content .content__content .content__cont_wraper .left_content{
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    min-width: 150px;
+}
+
+.roadmap .content .content__content .content__cont_wraper .right_content{
+ display: inline-block;
+ text-align: right;
+ width: 49%;
+ min-width: 150px;
+}
+
+.roadmap .content .content__content .content__cont_wraper .right_content .desc{
+    font-size: 14px;
+    padding: 5px 0px ;
+}
+
+.roadmap .content .content__content .content__cont_wraper .right_content .status{
+    font-size: 16px;
+    padding: 5px 0px 10px 0px;
+}
+
+.roadmap .greenft{
+    color: #67c23a;
+}
+.roadmap .blackft{
+    color:#101010
+}
+

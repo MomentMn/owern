@@ -1,0 +1,102 @@
+.add_class .choose_center {
+    padding:5px;
+    width: 200px;
+    background-color: #fff;
+    float: left;
+}
+.add_class .center_li {
+    background-color: #E7E6E3;
+    font-weight: 500;
+    border-top: 1px solid #ccc;
+    margin-bottom: 5px;
+    line-height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.clearfix {
+    clear:both;
+    overflow:hidden;
+}
+.add_class .choose_title {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.add_class .center_detail {
+    width: 80%;
+    min-width:1000px;
+    min-height:700px;
+    background-color: #f9f9f9;
+    float: left;
+    padding: 10px;
+}
+.add_class .center_detail button {
+    background-color: #7fbf40;
+    height: 40px;
+    color: #fff;
+    border: none;
+    padding: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    float: left;
+}
+.add_class .center_detail .detail_head span {
+    color:#fd9933;
+    font-size: 23px;
+}
+.detail_head {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.redbtn {
+    background-color: #d9534f;
+}
+.add_class .form_info {
+    width:90%;
+    margin: 0 auto;
+    padding:20px;
+    padding-bottom: 40px;
+}
+.add_class .el-radio__label {
+    margin-left:-40px;
+}
+.add_class .form_info div{
+    margin-bottom: 5px;
+}
+.add_class .form_info div span{
+    margin-right: 20px;
+}
+.form_submit {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+.form_submit button {
+    float: right !important;
+    width: 150px;
+}
+.add_class .form_info .el-input--suffix .el-input__inner {
+    height: 23px;
+    width: 150px;
+    border: 1px solid #aaa;
+}
+.chose_date .el-input--suffix .el-input__inner {
+    width: 150px !important;
+    height: 40px !important;
+}
+.chose_date .el-input__prefix {
+    display: none;
+}
+.add_class .form_info .el-input__prefix,.add_class .el-input__suffix {
+    top:8px !important;
+    right:-30px !important;
+}
+.select_time .el-input--suffix .el-input__inner{
+    width: 64px !important;
+}
+.red_name {
+    color:#d9534f;
+}

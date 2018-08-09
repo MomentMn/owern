@@ -1,0 +1,62 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clearfix{
+    overflow:auto;
+}
+.left-container{
+	width:260px;
+	border:1px solid #c1c1c1;
+}
+.left-container .nav-name{
+	height:50px;
+	font-size:18px;
+	text-align:center;
+	border:1px solid #dfddd9;
+	background-color:#ffffff;
+	line-height:50px;
+}
+.left-container ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+.left-container a{
+	display:block;
+	height:50px;
+	background-color:#f3f2f0;
+	line-height:50px;
+	font-size:15px;
+	text-align:center;
+	text-decoration:none;
+	color:#5f5e59;
+	border:1px solid #dfddd9;
+}
+.left-container .active a{
+	background-color:#ffc668;
+}
+.right-container{
+	width:calc(100% - 263px);
+}
+
+.v-modal{
+	opacity: 0;
+}
+
+.el-table--border{
+	border:1px solid #bbbbbb !important;
+}
+.el-table--border td, .el-table--border th{
+	border-right:1px solid #bbbbbb;
+}
+.el-table td, .el-table th.is-leaf{
+	border-bottom:1px solid #bbbbbb;
+}

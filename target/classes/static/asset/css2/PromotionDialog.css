@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*RoadMap Training Dialog */
+.promotion-dialog{
+    width: 1000px;
+    height: 700px;
+}
+.promotion-dialog .el-dialog__header{
+    display: none;
+}
+.promotion-dialog .el-dialog--center .el-dialog__body{
+    padding: 0px 0px!important;
+    height: 100%
+}
+
+.promotion-dialog .el-dialog--center .dialog__body{
+    padding:0px  0px;
+}
+.promotion-dialog .dialog-wrapper{
+    position: relative;
+}
+.promotion-dialog .dialog-wrapper  .current-level{
+    height: 42px;
+    width: 173px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 4px #ED1C24;
+    margin-bottom: 15px;
+    color: #ED1C24;
+    position: absolute;
+    left:78px;
+    top: 52px;
+}
+.promotion-dialog .el-dialog__body{
+    padding: 0px 0px;
+}
+.promotion-dialog .dialog-wrapper {
+
+}
+/*共同样式*/
+.promotion-dialog .dialog-wrapper .divwh{
+    position: absolute;
+    /*background-color: rgba(0,0,0,0.5);*/
+    cursor: pointer;
+}
+
+.promotion-dialog .dialog-wrapper .divwh:hover
+{
+    background-color: rgba(255,255,0,0.5);
+}
+
+.promotion-dialog .dialog-wrapper .divwh-zero{
+    height: 49px;
+    width: 614px;
+    left: 307px;
+    top: 50px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-first{
+     height: 53px;
+     width: 259px;
+     left:306px;
+     top: 134px;
+}
+
+
+.promotion-dialog .dialog-wrapper  .divwh-second{
+    height: 53px;
+    width: 265px;
+    left: 656px;
+    top: 134px;
+}
+.promotion-dialog .dialog-wrapper  .divwh-third{
+    height: 53px;
+    width: 259px;
+    left: 305px;
+    top: 219px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-fourth{
+    height: 53px;
+    width: 265px;
+    left: 656px;
+    top: 219px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-fiveth{
+    height: 53px;
+    width: 259px;
+    left: 305px;
+    top: 334px;
+}
+.promotion-dialog .dialog-wrapper  .divwh-sixth{
+    height: 52px;
+    width: 265px;
+    left: 656px;
+    top: 336px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-seventh{
+    height: 53px;
+    width: 259px;
+    left: 305px;
+    top: 417px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-eighth{
+    height: 52px;
+    width: 265px;
+    left: 656px;
+    top: 428px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-ninth{
+    height: 53px;
+    width: 259px;
+    left: 305px;
+    top: 501px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-tenth{
+    height: 52px;
+    width: 265px;
+    left: 656px;
+    top: 510px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-eleventh{
+    height: 69px;
+    width: 122px;
+    left: 656px;
+    top: 601px;
+}
+
+.promotion-dialog .dialog-wrapper  .divwh-twelfth{
+    height: 69px;
+    width: 122px;
+    left: 800px;
+    top: 601px;
+}
+
+

@@ -1,0 +1,45 @@
+.top_container {
+    height: 56px;
+    padding: 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    line-height: 56px;
+}
+.taidii_png {
+    width: 150px;
+}
+ul {
+    padding:0;
+}
+.clearfix{
+    overflow:auto;_height:1%
+}
+li {
+    list-style: none;
+}
+.left-container {
+    float: left;
+}
+.left-container li {
+    text-align: center;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 20px;
+}
+.right-container{
+    width:calc(100% - 263px);
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+.left-container li a {
+    color: #999;
+}
+.active {
+    background-color: #ffa144 !important;
+}
+.active a{
+    color: #fff !important;
+}

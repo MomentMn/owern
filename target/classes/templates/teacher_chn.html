@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Staff Development</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <script src="/staffdevelop/asset/js/vue-2.4.16.min.js"></script>
+        <script src="/staffdevelop/asset/js/vue-router-3.0.1.min.js"></script>
+        <link rel="stylesheet" href="/staffdevelop/themes/element-ui/lib/theme-chalk/index.css"/>
+		<script src="/staffdevelop/themes/element-ui/lib/index.js"></script>
+		<script src="/staffdevelop/asset/js/js.cookie-2.1.4.min.js"></script>
+        <script src="/staffdevelop/asset/js/axios-0.18.0.js"></script>
+        <script src="/staffdevelop/asset/js/jquery-3.3.1.min.js"></script>
+        <!-- 一些酝置  -->
+        <script src="/staffdevelop/config/axios-config.js"></script>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/index.css"/>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/roadmap.css"/>
+		<link rel="stylesheet" href="/staffdevelop/asset/css2/settings.css"/>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/appraisal.css"/>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/leaderMain.css"/>
+ 		<link rel="stylesheet" href="/staffdevelop/asset/css2/training.css"/>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/RoadMapDetail.css"/>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/RoadDialog.css"/>
+        <link rel="stylesheet" href="/staffdevelop/asset/css2/PromotionDialog.css"/>
+    </head>
+    <body>
+        <div id="app" class="clearfix">
+            <router-view></router-view>
+        </div>
+        <script type="module">
+			import router from '/staffdevelop/router/teacherrouter2.js';
+            var app = new Vue({ 
+				router
+            }).$mount("#app");
+            app.$router.push({name:"appraisal"})
+            //           <![CDATA[
+            var _height =0;
+            // 每隔两秒更新一下高度
+            setInterval(function(){
+                if(parent && parent.changeFrameHeight){
+                    var _appheight = $("#app").height();
+                    var _dialogBody =$(".el-dialog__body").height();
+                    if(_dialogBody&&_dialogBody>100){
+                        _appheight = _appheight +_dialogBody;
+                    }
+                    if(_height!=_appheight){
+                        // 显示内容的高度
+                        parent.changeFrameHeight(_appheight);
+                        _height =_appheight;
+                    }
+                }
+            },1000);
+
+            if(parent && parent.changeFrameHeight){
+                // 显示内容的高度
+                parent.changeFrameHeight(document.body.clientHeight+document.body.offsetHeight);
+            }
+            //            ]]>
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.pageDetail{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100%;
+}
+
+.roaddetail{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, BlinkMacSystemFont, "Helvetica Neue", Arial, "Microsoft Yahei", "WenQuanYi Micro Hei", "Pingfang SC", sans-serif;
+}
+
+.roaddetail .roaddetail-wraper{
+    padding-top: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.roaddetail .title{
+    height: 65px;
+}
+
+.roaddetail .title .big_title{
+    color: #000000;
+    font-size: 30.0px;
+}
+.roaddetail .title .level{
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.roaddetail .title .name{
+    font-size: 16px;
+}
+.roaddetail .content{
+    height: 100%;
+    width: 98%;
+    background-color: #ffffff;
+}
+.roaddetail .content .cont_wraper{
+}
+.roaddetail .content .cont_wraper table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+.roaddetail .content .cont_wraper table,
+.roaddetail .content .cont_wraper table tr,
+.roaddetail .content .cont_wraper table tr th,
+.roaddetail .content .cont_wraper table tr td{
+    border: solid 1px #BBBBBB;
+    color: #454545;
+}
+
+.roaddetail .content .cont_wraper table .tbltitle{
+  height: 30px;
+  padding-left:10px;
+  line-height: 30px;
+}
+
+.roaddetail .content .cont_wraper table .tbltitle .year{
+    font-size: 20px;
+}
+.roaddetail .content .cont_wraper table .tbltitle .level{
+      font-size: 16px;
+      margin-left: 20px;
+  }
+.roaddetail .content .cont_wraper table .tbltitle .status{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #2B9E2A;
+}
+.roaddetail .content .cont_wraper table .fst-level{
+    background-color: #FFC773;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.roaddetail .content .cont_wraper table .second-level-tr{
+    background-color: #EDEDED;
+}
+
+.roaddetail .content .cont_wraper table .second-level{
+    background-color: #EDEDED;
+    min-height: 28px;
+    display: table-cell;
+    vertical-align: middle;
+    /*// line-height: 30px;*/
+    padding-left: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+.roaddetail .content .cont_wraper table .second-level button{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.roaddetail .content .cont_wraper table .third-level{
+    padding-left: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.roaddetail .content .cont_wraper table .summary{
+    background-color: #808080;
+    color: #ffffff;
+    font-size: 16px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.roaddetail .content .cont_wraper table .summary span{
+    margin-right: 20px;
+}
+.roaddetail .content .cont_wraper table .third-level .el-date-editor.el-input, .el-date-editor.el-input__inner{
+    width: 140px;
+}
+/*ElementUI*/
+.roaddetail .content .cont_wraper .el-date-table .el-time-panel table,
+.roaddetail .content .cont_wraper .el-date-table .el-time-panel table tr,
+.roaddetail .content .cont_wraper .el-date-table .el-time-panel table tr th,
+.roaddetail .content .cont_wraper .el-date-table .el-time-panel table tr td{
+    border: solid 0px #BBBBBB;
+    color: #606266;
+}

@@ -1,0 +1,551 @@
+    /*settings css*/
+    .staff-settings-handle{
+        width:96%;
+        margin: 0 2%;
+        background-color: #F7F7F7;
+    }
+    .staff-settings-handle .framework-skill-table{
+        background-color: #F7F7F7;
+        height: 600px;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs--card>.el-tabs__header {
+        border-bottom: 0px solid #e4e7ed;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs--card>.el-tabs__header .el-tabs__nav{
+        border: 0px solid #e4e7ed;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs--card>.el-tabs__header .el-tabs__item {
+        border-bottom: 0px solid transparent;
+        border-left: 0px solid #e4e7ed;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs__item:hover {
+        color: #FF9800;
+        cursor: pointer;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs__item.is-active {
+        color: #FF9800;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs__item.is-active .tab-span-number{
+        background-color:#FF9800 ;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs__item:hover  .tab-span-number{
+        background-color:#FF9800 ;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs__nav {
+        width: 100%;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs__item{
+        width: 20%;
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #ABABAB;
+    }
+    .staff-settings-handle .settings-tab-class .tab-span-number{
+        width:16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #ABABAB;
+        color:#F7F7F7;
+        float: left;
+        margin-left: 20%;
+        margin-top: 12px;
+        position: relative;
+    }
+    .staff-settings-handle .settings-tab-class .tab-level-class{
+        float: left;
+        margin-left: 10px;
+    }
+    .staff-settings-handle .settings-tab-class .td-number{
+        position: absolute;
+        top: -12px;
+        left: 3px;
+        font-size: 14px;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs--top.el-tabs--card .el-tabs__item:nth-child(2){
+        padding-left: 0px;
+    }
+    .staff-settings-handle .settings-tab-class .el-tabs--top.el-tabs--card .el-tabs__item:last-child{
+        padding-right: 0px;
+    }
+    /*skill framework*/
+    .staff-settings-handle .framework-tab-class .el-tabs--card>.el-tabs__header {
+        border-bottom: 0px solid #e4e7ed;
+    }
+    .staff-settings-handle .framework-tab-class .el-tabs--card>.el-tabs__header .el-tabs__nav{
+        border: 0px solid #e4e7ed;
+    }
+    .staff-settings-handle .framework-tab-class .el-tabs--card>.el-tabs__header .el-tabs__item {
+        border-bottom: 0px solid transparent;
+        border-left: 0px solid #e4e7ed;
+    }
+    .staff-settings-handle .framework-tab-class .el-tabs__item:hover {
+        color: #FF9800;
+        cursor: pointer;
+    }
+    .staff-settings-handle .framework-tab-class .el-tabs__item.is-active {
+        color: #FF9800;
+    }
+    .staff-settings-handle .framework-tab-class  .el-tabs__active-bar{
+        height: 3px;
+        background-color: #ff9800;
+    }
+    .staff-settings-handle .framework-tab-class .el-tabs__nav{
+        margin-left: 35%;
+    }
+    .staff-settings-handle .framework-domain-class{
+        height:65px;
+        min-width: 998px;
+    }
+    .staff-settings-handle .framework-domain-scoll-border{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        margin-bottom: 15px;
+        background-color: #E3E3E3;
+        border: 1px solid #C2C2C2;
+    }
+    .staff-settings-handle .framework-domain-class .skill-domain-item{
+        border-right: 1px solid #C2C2C2;
+        float: left;
+        height:65px;
+        width:240px;
+        position: relative;
+        cursor:pointer;
+        text-align: center;
+        display: table;
+        vertical-align: middle;
+    }
+    /*滚轴*/
+    .staff-settings-handle .framework-domain-scoll-border::-webkit-scrollbar {
+        /*滚动条整体部分*/
+        width: 5px;
+        height:10px;
+        background-color:#808080;
+     }
+    .staff-settings-handle .framework-domain-scoll-border::-webkit-scrollbar-track{
+        /* scroll轨道背景*/
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color:#E3E3E3;
+    }
+    .staff-settings-handle .framework-domain-scoll-border::-webkit-scrollbar-thumb{
+        /*滚动条中能上下移动的小块*/
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color:#C2C2C2;
+    }
+    .staff-settings-handle .framework-domain-class .active{
+        color: white;
+        background-color: #808080;
+    }
+    .staff-settings-handle .framework-domain-class .skill-domain-item .skill-domain-item-span{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .staff-settings-handle .framework-domain-class .skill-domain-item .skill-domain-add-span{
+        position: absolute;
+        left: 25px;
+        top: 15px;
+    }
+    .staff-settings-handle  .framework-class1{
+        float: left;
+        width: 100%;
+        margin-bottom:15px;
+    }
+    .staff-settings-handle  .framework-class2{
+        height:35px;
+        width: 100%;
+    }
+    .staff-settings-handle  .framework-class3{
+        height: 80px;
+    }
+    .staff-settings-handle  .framework-class4{
+        float: left;
+        height:80px;
+        width: 100%;
+        background-color: white;
+    }
+    .staff-settings-handle  .framework-item-class1{
+        float:left;
+        height:30px;
+        outline: 1px solid #C2C2C2;
+        background-color: #EDEDED;
+        padding-top: 5px;
+        width:40%;
+        padding-left:3%;
+    }
+    .staff-settings-handle .framework-item-class2{
+        float:left;
+        height:30px;
+        background-color: #EDEDED;
+        padding-top: 5px;
+        width:40%;
+        padding-left: 17%;
+        outline: 1px solid #C2C2C2;
+    }
+    .staff-settings-handle .framework-item-class3{
+        float:left;
+        height:68px;
+        width: 41%;
+        padding-left:2%;
+        outline: 1px solid #C2C2C2;
+        padding-top: 12px;
+        font-size: 14px;
+        color: #606266;
+    }
+    .staff-settings-handle .framework-item-class4{
+        float:left;
+        width:55%;
+        padding-left:2%;
+        height:68px;
+        padding-top:12px;
+        outline: 1px solid #C2C2C2;
+    }
+    .staff-settings-handle  .framework-item-class42{
+        float:left;
+        width:49%;
+        padding-left:2%;
+        height:68px;
+        padding-top:12px;
+        outline: 1px solid #C2C2C2;
+    }
+    .staff-settings-handle  .framework-item-class5{
+        float:left;
+        width:4%;
+        height:55px;
+        padding-top:25px;
+        padding-left:2%;
+        outline: 1px solid #C2C2C2;
+    }
+    .staff-settings-handle  .framework-add-skill-class{
+        height:40px;
+        font-size: 15px;
+        background-color: white;
+        outline: 1px solid #C2C2C2;
+    }
+    .staff-settings-handle .framework-add-category-class{
+        height:40px;
+        font-size: 15px;
+        width: 100%;
+        float: left;
+        background-color:#EDEDED;
+        border: 1px solid #BBBBBB;
+    }
+    .staff-settings-handle .el-icon-circle-plus{
+        color:#8FC54F;
+        cursor: pointer;
+        float: left;
+        margin-top:10px;
+        margin-left: 25px;
+        font-size:18px;
+    }
+    /*skill framework*/
+    /*add category css*/
+    .add-category-dialog{
+        width:710px;
+    }
+    .add-category-dialog .el-dialog__body {
+        padding: 30px 30px;
+    }
+    .add-category-dialog  .el-textarea__inner{
+        height: 45px !important;
+        padding: 10px 15px;
+    }
+    .add-category-dialog .dialog-border-class{
+        width:650px;
+        border-top:1px solid #a3a3a3;
+        border-bottom:1px solid #a3a3a3;
+    }
+    .add-category-dialog .category-table-td{
+        height: 45px;
+    }
+    .add-category-dialog .category-table-left{
+        width: 5%;
+        outline: 1px solid #a3a3a3;
+        float: left;
+        height: 35px;
+        padding-top: 10px;
+        padding-left: 4%;
+    }
+    .add-category-dialog .category-table-right{
+        width:91%;
+        outline: 1px solid #a3a3a3;
+        float: left;
+        height: 45px;
+    }
+    .add-category-dialog .category-add-plus-class{
+        height:45px;
+        background-color: white;
+        outline: 1px solid #C2C2C2;
+        border: 1px solid #C2C2C2;
+    }
+    .add-category-dialog .el-icon-plus{
+        color:#8FC54F;
+        cursor: pointer;
+        float: left;
+        margin-top:10px;
+        margin-left:20px;
+        font-size:18px;
+        font-weight: bold;
+    }
+    /*add category css*/
+    /*add domain css*/
+    .add-domain-dialog{
+        width:710px;
+    }
+    .add-domain-dialog .el-dialog__body {
+        padding: 30px 30px;
+    }
+    .add-domain-dialog  .el-textarea__inner{
+        height: 45px !important;
+        padding: 10px 15px;
+    }
+    .add-domain-dialog .dialog-border-class{
+        width:650px;
+        border-top:1px solid #a3a3a3;
+        border-bottom:1px solid #a3a3a3;
+    }
+    .add-domain-dialog .category-table-td{
+        height: 45px;
+    }
+    .add-domain-dialog .category-table-left{
+        width: 5%;
+        outline: 1px solid #a3a3a3;
+        float: left;
+        height: 35px;
+        padding-top: 10px;
+        padding-left: 4%;
+    }
+    .add-domain-dialog .category-table-right{
+        width:91%;
+        outline: 1px solid #a3a3a3;
+        float: left;
+        height: 45px;
+    }
+    .add-domain-dialog .category-add-plus-class{
+        height:45px;
+        background-color: white;
+        outline: 1px solid #C2C2C2;
+        border: 1px solid #C2C2C2;
+    }
+    .add-domain-dialog .el-icon-plus{
+        color:#8FC54F;
+        cursor: pointer;
+        float: left;
+        margin-top:10px;
+        margin-left:20px;
+        font-size:18px;
+        font-weight: bold;
+    }
+    /*add domain css*/
+    /*settings css*/
+    .score-add-class{
+        height: 45px;
+        font-size: 15px;
+        border-bottom: 1px solid #BBBBBB;
+        border-left: 1px solid #BBBBBB;
+        border-right: 1px solid #BBBBBB;
+        background-color: white;
+    }
+    .score-add-class .el-icon-circle-plus{
+        color:#8FC54F;
+        cursor: pointer;
+        float: right;
+        margin-top:15px;
+        margin-right:20px;
+        font-size:18px;
+    }
+    .score-table-head th{
+        background-color: #E3E3E3;
+    }
+
+    /*add score css*/
+    .add-score-dialog{
+        width: 480px;
+        height: 335px;
+    }
+    .add-score-dialog .el-input{
+        height: 34px;
+    }
+    .add-score-dialog .el-input__inner{
+        height: 34px;
+    }
+    .add-score-dialog .el-dialog__title{
+        font-size:15px;
+        color: #1a1a1a;
+        margin-left: 23px;
+    }
+    .add-score-dialog .el-form-item__label{
+        font-size:15px;
+        color: #1a1a1a;
+    }
+    .add-score-dialog .el-input__inner{
+        font-size:15px;
+        color: #1a1a1a;
+    }
+    .add-score-dialog .dialog-border-class{
+        width: 480px;
+        height: 222px;
+        border-top:1px solid #a3a3a3;
+        border-bottom:1px solid #a3a3a3;
+    }
+    .add-score-dialog .el-dialog__body {
+        padding: 0px 0px;
+    }
+    .add-score-dialog form.el-form {
+        padding: 30px 20px;
+    }
+    .add-score-dialog .el-form-item {
+        margin-bottom: 20px;
+    }
+    /*add score css*/
+    /*delete score css*/
+    .delete-score-dialog{
+        width: 380px;
+        height:210px;
+    }
+    .delete-score-dialog .dialog-border-class{
+        width: 380px;
+        height:110px;
+        border-bottom:1px solid #a3a3a3;
+    }
+    .delete-score-dialog .dialog-border-class p{
+        text-align: center;
+        color: #1a1a1a;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .delete-score-dialog .el-dialog__body {
+        padding: 0px 0px;
+    }
+    .delete-score-dialog .el-button:focus, .el-button:hover {
+        border-color:#dcdfe6;
+        background-color:#fff;
+        color: #606266;
+    }
+    /*delete score css*/
+    /*skill level css*/
+    .td-skill-table th{
+        background-color: #E3E3E3;
+    }
+    /*skill level css*/
+
+    /*add staff level teacher css*/
+    .leaderMain tr.el-table__row .cell div:first-child{
+        min-height: 88px;
+    }
+    .add-staff-dialog{
+        width: 480px;
+        height:220px;
+    }
+    .add-staff-dialog .el-input{
+        height: 34px;
+    }
+    .add-staff-dialog .el-input__inner{
+        height: 34px;
+    }
+    .add-staff-dialog .el-dialog__title{
+        font-size:15px;
+        color: #1a1a1a;
+        margin-left: 23px;
+    }
+    .add-staff-dialog .el-form-item__label{
+        font-size:15px;
+        color: #1a1a1a;
+    }
+    .add-staff-dialog .el-input__inner{
+        font-size:15px;
+        color: #1a1a1a;
+        text-align: center;
+    }
+    .add-staff-dialog .dialog-border-class{
+        width: 480px;
+        height: 100px;
+        border-top:1px solid #a3a3a3;
+        border-bottom:1px solid #a3a3a3;
+    }
+    .add-staff-dialog .el-dialog__body {
+        padding: 0px 0px;
+    }
+    .add-staff-dialog form.el-form {
+        padding: 30px 20px;
+    }
+    .add-staff-dialog .el-form-item {
+        margin-bottom: 20px;
+    }
+    .el-select-dropdown__item {
+        text-align: center;
+    }
+    .add-staff-dialog .el-select-dropdown__item{
+        text-align: center;
+    }
+    .add-staff-dialog .el-input__icon{
+        height: 115%;
+    }
+    /*add staff level teacher css*/
+    /*session setting*/
+    .el-table__body tr:hover{
+        background-color: initial!important;
+    }
+    .el-table__body tr.current-row>td{
+        background-color: initial!important;
+    }
+    .seesion-setting-class{
+        width:100%;
+        height:610px;
+        background-color: white;
+    }
+    .seesion-setting-class .seesion-setting-item-class{
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 15px;
+    }
+    .seesion-setting-class .seesion-setting-item-class .date-picker{
+        width: 135px;
+        margin-left: 20px;
+    }
+    /*session setting*/
+    .settings-tab-class .active{
+        color: #FF9800;
+    }
+    .settings-tab-class .active .td-tab-number{
+        background-color: #FF9800 !important;
+    }
+    .settings-tab-class ul{
+        list-style-type: none;
+        color: #ABABAB;
+        font-weight: bold;
+        font-size:15px;
+    }
+    .settings-tab-class .route-tab-li{
+        float: left;
+        height: 20px;
+        cursor: pointer;
+    }
+    .settings-tab-class .td-tab-number{
+
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #ABABAB;
+        color: white;
+        margin-top: 2px;
+        font-size: 13px;
+        padding: 0px 4px;
+        margin-right: 2px;
+    }
+    .settings-tab-class .router-tab-line{
+        float: left;
+        width: 6%;
+        border-top: 1px solid #ABABAB;
+        height: 1px;
+        margin-top: 10px;
+    }
+    .staff-settings-handle .leaderMain .item{
+        cursor: default;
+    }
+
+    /*校验红点*/
+    .el-form-item.is-required .el-form-item__label:before {
+        content: ''!important;
+    }

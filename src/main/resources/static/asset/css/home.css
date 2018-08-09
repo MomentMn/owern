@@ -1,0 +1,35 @@
+/*home css*/
+.home_center .home_staff, .home_finance, .home_student{
+	/* width:400px; */
+	min-height:180px;
+	float:left;
+	margin-left: 20px;
+	border:1px solid #DEDEDE;
+	border-radius: 3px;
+	
+}
+.home_center img{
+	margin: 18px;
+	float: left;
+}
+.home_center .font-style{
+	/* font-size: 30px; */
+	color:#FFA042;
+	/* line-height: 70px; */
+	border-bottom: 1px solid #DEDEDE;
+	padding-bottom: 10px;
+}
+.home_center .font_border{
+	/* border-bottom: 1px solid #DEDEDE; */
+    width: 250px;
+    float: right;
+    margin-right:29px;
+}
+
+.home_center .font_bott{
+    margin-top: 15px;
+    color:#999999;
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}

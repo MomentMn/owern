@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+.leaderMain{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, BlinkMacSystemFont, "Helvetica Neue", Arial, "Microsoft Yahei", "WenQuanYi Micro Hei", "Pingfang SC", sans-serif;
+}
+
+.leaderMain .content{
+}
+
+.leaderMain .content table{
+    height: 100%;
+    width: 100%;
+    border-width: 4px;
+}
+.leaderMain  th{
+   background-color:  #E3E3E3;
+    color: #404040;
+}
+.leaderMain .el-table--border{
+    border: 1px solid #bbbbbb;
+}
+.leaderMain .content table td{
+    min-height: 80px;
+    font-size: 16px;
+    border: 1px solid #bbbbbb;
+}
+
+.leaderMain table .cellGreen{
+    /*border-left: solid 6px #8BC34A!important;*/
+    border-left-color: #8BC34A!important;
+    padding: 0px;
+}
+.leaderMain table .cellGreen .cell{
+   height: 100%;
+   border-left: solid 6px #8BC34A!important;
+    position: relative;
+}
+
+
+.leaderMain table .cellGreen .cell div{
+    position: absolute;
+    top: 40%;
+}
+
+.leaderMain table .cellYellow{
+    border-left-color: #FFC773!important;
+    padding: 0px;
+}
+
+.leaderMain table .cellYellow .cell{
+    height: 100%;
+    border-left: solid 6px #FFC773!important;
+    position: relative;
+
+}
+
+.leaderMain table .cellYellow .cell div{
+    position: absolute;
+    top: 40%;
+}
+
+.leaderMain table .cellRed{
+    border-left-color: #FD7751!important;
+    padding: 0px;
+}
+.leaderMain table .cellRed .cell{
+    height: 100%;
+    border-left: solid 6px #FD7751!important;
+    position: relative;
+}
+.leaderMain table .cellRed .cell div{
+    position: absolute;
+    top: 40%;
+}
+.leaderMain .el-table__body, .leaderMain .el-table__footer,.leaderMain  .el-table__header {
+    border-collapse: collapse;
+}
+
+.leaderMain table .round_icon{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.leaderMain table .item{
+    width: 88px;
+    height: 88px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+
+}
+.leaderMain table .item img{
+    margin: auto;
+}
+
+.leaderMain table .item .item_text{
+    text-align: center;
+    font-size: 12.0px;
+    color: #101010;
+    overflow-x: hidden;
+    white-space:nowrap;
+}
+.leaderMain table  .el-icon-circle-plus{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.leaderMain .colorGreen {
+    color: #8BC34A;
+}
+.leaderMain .colorYellow {
+    color: #FFC773;
+}
+.leaderMain .colorRed {
+    color: #FD7751;
+}
+.leaderMain .operate{
+    display: block;
+    float: right;
+    height: 24px;
+    width: 10%;
+    top: 35%;
+    right: 0px;
+    position: absolute;
+}
+.staff-settings-handle .leaderMain .operate .el-icon-circle-plus {
+    cursor: pointer;
+    float: left !important;
+    margin-right: 25px !important;
+    float: right !important;
+}
+
+.leaderMain table .el-table__row .el-table_1_column_2{
+    padding: 3px 0px;
+
+}
+/*正式页面*/
+.myleaderpage{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Roboto, BlinkMacSystemFont, "Helvetica Neue", Arial, "Microsoft Yahei", "WenQuanYi Micro Hei", "Pingfang SC", sans-serif;
+}
+
+.myleaderpage .content{
+    width: 98%;
+    height: 100%;
+    margin: 20px 0px 20px 10px;
+}
+
+
+
+.roaddetail .colorGreen {
+    color: #67c23a;
+}
+.roaddetail .colorYellow {
+    color: #FFC773;
+}
+.roaddetail .colorRed {
+    color: #FD7751;
+}
